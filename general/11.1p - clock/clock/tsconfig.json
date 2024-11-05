@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "lib": [
+            "ES2021"
+        ],
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "app.ts",
+        "classes.ts"
+    ],
+    "exclude": [
+        "dist"
+    ]
+}
